@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SING-UP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;   
+        background-color: rgb(157, 234, 248);  
+        box-sizing: border-box;
+    }
+
+    .main {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .content {
+        display: flex;
+        width: 100%;
+        height: 500px;
+        margin-top: 80px;
+        border-radius: 10px; 
+        overflow:hidden;
+        box-shadow: 0px 0px 20px rgb(58, 57, 57);
+
+    }
+
+    .image {
+        width: 60%;
+        height: 500px;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .form {
+        width: 40%;
+        text-align: center;   
+        Background-color: rgb(218, 245, 245);
+        
+    }
+
+    .form-content {
+        margin: 20px 12%;
+        
+        text-align: left;
+        
+    }
+
+    .form-content input {
+
+        width: 400px;
+        height: 40px;
+        font-size: 20px;
+        border: none;
+        border-radius: 4px;
+        outline: none;
+        padding: 10px 20px;
+        background-color: rgb(214, 224, 224);
+    }
+
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-family: 'Noto Serif', serif;
+
+    }
+
+    P {
+        font-family: 'Noto Serif', serif;
+        font-size: 16px;
+    }
+
+    .form-content button {
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        background-color: rgb(42, 146, 180);
+        border: none;
+        border-radius: 8px;
+        color: white;
+        margin: 4px 2px;
+        margin-top: 5px;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    ::placeholder {
+        color: rgb(92, 92, 92);
+    }
+
+    
+</style>
+
+<body>
+
+    <div class="main">
+        <div class="content">
+            <div class="image">
+                <img src="https://ak.picdn.net/shutterstock/videos/1026891398/thumb/1.jpg">
+            </div>
+
+            <div= class="form">
+                <form>
+                    <h2><b>SIGN UP</b></h2>
+                    <p><b>Make the most of your PROFESSIONAL LIFE</b></p>
+
+                    <div class="form-content">
+                        <label for="name"></label>
+                        <input type="text" name="" placeholder="Full name">
+                    </div>
+                    <div class="form-content">
+                        <label for="user-id"></label>
+                        <input type="text" name="" placeholder="User ID">
+                    </div>
+                    <div class="form-content">
+                        <label for="email"></label>
+                        <input type="email" name="" placeholder="E-Mail">
+                    </div>
+                    <div class="form-content">
+                        <label for="password"></label>
+                        <input type="password" name="" placeholder="Password">
+                    </div>
+                    <div class="form-content form-submit">
+                        <button type="submit">SignUp</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
