@@ -417,6 +417,10 @@ nav a
     color: red;
 }
 
+/*
+    get and post gobs section
+*/
+
 #get-job, #feature {
     display: flex;
     justify-content: center;
