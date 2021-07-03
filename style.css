@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 *
 {
     margin: 0;
@@ -1093,3 +1097,61 @@ nav a
 .feed-main-container .feed-right-container .footer-social-link .twit-link:hover {
     color: #1DA1F2;
 }
+
+/* about*/
+
+.about-lower
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+
+}
+.about-section
+{
+    background: url(https://image.freepik.com/free-photo/people-sitting-desk-with-laptops-working_23-2147650929.jpg);
+    background-size: 57% 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    width:100%;
+    height:calc(100vh-60px);
+    padding:2%;
+}
+.inner-container
+{
+    width: 50%;
+    float: right;
+    padding: 74px;
+    background-color: rgb(221, 247, 248);    
+}
+h1
+ {
+     margin-bottom: 30px;
+     font-size: 26px;
+     border-bottom: 1px dotted black;
+     font-family: cursive;
+ }
+ h2
+ {
+     font-size: 28px;
+     margin-top: 25px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight: 900;
+
+ }
+
+ h4
+ {
+    font-size:25px;
+    margin-top: 15px;
+    font-family: 'Arimo', sans-serif;
+ }
+ .text
+ {
+    font-size:17px;
+    font-weight: 150;
+    margin-top: 7px;
+    font-family: 'Arimo', sans-serif;  
+ }
+
