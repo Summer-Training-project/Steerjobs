@@ -1171,13 +1171,14 @@ nav a
 
 /*container*/
 
-.container
+.container-main .container
 {
     /* border: 1px solid rgb(87, 190, 216); */
     display:grid;
     grid-template-columns: 50% 50%;
     background-color: rgb(235, 235, 235);
     padding: 3%;
+    /* border: 1px solid red; */
 }
 
 .container-left , .container-right {
